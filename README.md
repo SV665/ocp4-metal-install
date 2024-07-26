@@ -386,6 +386,11 @@
    ```bash
    echo "/shares/registry  192.168.22.0/24(rw,sync,root_squash,no_subtree_check,no_wdelay)" > /etc/exports
    exportfs -rv
+
+   ''' SSV
+    echo "/shares/registry  192.168.22.0/24(rw,sync,root_squash,no_subtree_check,no_wdelay)" > /etc/exports
+   exportfs -rv
+
    ```
 
    Set Firewall rules:
